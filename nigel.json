@@ -21,13 +21,14 @@
                 "build": {
                     "plugin": "jenkins",
                     "config": {
-                        "url": "https://atsid.ci.cloudbees.net/api/"
+                        "url": "https://atsid.ci.cloudbees.net/",
+                        "auth": "auth.json"
                     }
                 }
             }
         },
         "sce": {
-            
+
         }
     }
 }
