@@ -12,12 +12,6 @@
             "name": "BTI Events",
             "description": "cool app",
             "tasks": {
-                "bugs": {
-                    "plugin": "jira",
-                    "config": {
-                        "url": "https://jira.atsid.com/derp/"
-                    }
-                },
                 "build": {
                     "plugin": "jenkins",
                     "config": {
@@ -26,9 +20,6 @@
                     }
                 }
             }
-        },
-        "sce": {
-
         }
     }
 }
