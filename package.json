@@ -20,7 +20,7 @@
     "express": "~3.4.4",
     "co": "~2.2.0",
     "co-express": "~0.3.2",
-    "co-fs": "git://github.com/MatthewMueller/co-fs.git"
+    "co-fs": "git://github.com/MatthewMueller/co-fs.git#patch-3"
   },
   "engine": "node >= 0.11.*"
 }
