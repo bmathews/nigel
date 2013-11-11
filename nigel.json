@@ -18,6 +18,13 @@
                         "url": "https://atsid.ci.cloudbees.com/",
                         "auth": "auth.json"
                     }
+                },
+                "doc": {
+                    "plugin": "confluence",
+                    "config": {
+                        "url": "https://confluence.atsid.com/",
+                        "auth": "auth.json"
+                    }
                 }
             }
         }
