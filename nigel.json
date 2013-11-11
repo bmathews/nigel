@@ -15,7 +15,7 @@
                 "build": {
                     "plugin": "jenkins",
                     "config": {
-                        "url": "https://atsid.ci.cloudbees.net/",
+                        "url": "https://atsid.ci.cloudbees.com/",
                         "auth": "auth.json"
                     }
                 }
