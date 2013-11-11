@@ -2,6 +2,14 @@ nigel
 =====
 
 [![Build Status](https://travis-ci.org/moonsspoon/nigel.png?branch=master)](https://travis-ci.org/moonsspoon/nigel)
+## Installing
+
+Requires node 0.11.* ran with `--harmony` flag
+
+```
+$ npm install
+$ node --harmony index.js
+```
 
 ## Tasks
  * Project Documentation
