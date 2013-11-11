@@ -21,7 +21,8 @@
     "co": "~2.2.0",
     "co-express": "~0.3.2",
     "co-fs": "git://github.com/MatthewMueller/co-fs.git#patch-3",
-    "lodash": "~2.3.0"
+    "lodash": "~2.3.0",
+    "request": "~2.27.0"
   },
   "engine": "node >= 0.11.*"
 }
