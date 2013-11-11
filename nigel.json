@@ -1,0 +1,33 @@
+{
+    "tasks": {
+        "directory": {
+            "plugin": "confluence-directory",
+            "config": {
+                "url": "http://confluence.atsid.com/herpderp"
+            }
+        }
+    },
+    "projects": {
+        "bti": {
+            "name": "BTI Events",
+            "description": "cool app",
+            "tasks": {
+                "bugs": {
+                    "plugin": "jira",
+                    "config": {
+                        "url": "https://jira.atsid.com/derp/"
+                    }
+                },
+                "build": {
+                    "plugin": "jenkins",
+                    "config": {
+                        "url": "https://atsid.ci.cloudbees.net/api/"
+                    }
+                }
+            }
+        },
+        "sce": {
+            
+        }
+    }
+}
