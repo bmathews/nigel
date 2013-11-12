@@ -1,6 +1,17 @@
-{
-    "TASK_NAME": {
+{   
+    "projectName": {
+        "pluginName": {
+            "configKey": "configValue"
+        }
+    }, 
+    "bti": {
+        "build": {
+            "user": "USER_NAME",
+            "pass": "PASSWORD"
+        }
+    }, 
+    "global-plugin": {
         "user": "USER_NAME",
-        "pass": "PASSWORD",
+        "pass": "PASSWORD"
     }
 }
