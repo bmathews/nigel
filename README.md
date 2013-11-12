@@ -35,7 +35,7 @@ getBugs: function (nigel, options) {
   return 
 };
 
-// register some bugs
+// register some tasks
 nigel.registerTask("list", "this gets a list of bugs", getBugs);
 nigel.registerTask("resolve", "resolve [id]", resolveBug);
 
