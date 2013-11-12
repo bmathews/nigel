@@ -24,7 +24,8 @@
                     "plugin": "confluence",
                     "config": {
                         "url": "https://confluence.atsid.com/",
-                        "auth": "auth.json"
+                        "auth": "auth.json",
+                        "defaultSpace": "BE"
                     }
                 }
             }
