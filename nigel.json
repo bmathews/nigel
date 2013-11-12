@@ -24,6 +24,12 @@
         "rps": {
             "plugin": "rps",
             "config": {}
+        },
+        "quote": {
+            "plugin": "quote",
+            "config": {
+                "url": "feed://feeds.feedburner.com/brainyquote/QUOTEFU"
+            }
         }
     },
     "projects": {
