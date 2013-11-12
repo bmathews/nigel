@@ -11,12 +11,13 @@ $ npm install
 $ node --harmony index.js
 ```
 
-## Tasks
- * Project Documentation
- * Create Project
- * Build Project
- * Bug Tracking
- * Project List
+## Plugins
+ * Jira
+ * Confluence
+ * Jenkins
+ * Cloudbees
+ * Rock Paper Scissors
+ * Quote of the Day
 
 ## Task API
 
