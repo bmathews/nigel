@@ -16,7 +16,8 @@
                 "build": {
                     "plugin": "jenkins",
                     "config": {
-                        "url": "https://atsid.ci.cloudbees.com/"
+                        "url": "https://atsid.ci.cloudbees.com/",
+                        "project": "bti-web-integ"
                     }
                 },
                 "doc": {
