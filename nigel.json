@@ -16,15 +16,13 @@
                 "build": {
                     "plugin": "jenkins",
                     "config": {
-                        "url": "https://atsid.ci.cloudbees.com/",
-                        "auth": "auth.json"
+                        "url": "https://atsid.ci.cloudbees.com/"
                     }
                 },
                 "doc": {
                     "plugin": "confluence",
                     "config": {
                         "url": "https://confluence.atsid.com/",
-                        "auth": "auth.json",
                         "spaceKey": "BE"
                     }
                 }
