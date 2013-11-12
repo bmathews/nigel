@@ -25,7 +25,7 @@
                     "config": {
                         "url": "https://confluence.atsid.com/",
                         "auth": "auth.json",
-                        "defaultSpace": "BE"
+                        "spaceKey": "BE"
                     }
                 }
             }
