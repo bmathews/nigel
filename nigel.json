@@ -26,6 +26,15 @@
                         "url": "https://confluence.atsid.com/",
                         "spaceKey": "BE"
                     }
+                },
+                "bugs": {
+                    "plugin": "jira",
+                    "config": {
+                        "project": "be",
+                        "host": "jira.atsid.com",
+                        "port": "443",
+                        "auth": "auth.json"
+                    }
                 }
             }
         }

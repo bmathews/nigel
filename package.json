@@ -22,6 +22,7 @@
     "co-express": "~0.3.2",
     "lodash": "~2.3.0",
     "request": "~2.27.0",
+    "jira": "~0.8.1",
     "co-fs": "~1.1.1"
   },
   "engine": "node >= 0.11.*"
