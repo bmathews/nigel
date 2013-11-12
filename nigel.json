@@ -20,6 +20,10 @@
                 "url": "https://confluence.atsid.com/",
                 "auth": "auth.json"
             }
+        },
+        "rps": {
+            "plugin": "rps",
+            "config": {}
         }
     },
     "projects": {
