@@ -6,6 +6,13 @@
                 "url": "https://confluence.atsid.com/",
                 "auth": "auth.json"
             }
+        },
+        "cloudbees": {
+            "plugin": "cloudbees",
+            "config": {
+                "url": "https://api.cloudbees.com/api",
+                "auth": "auth.json"
+            }
         }
     },
     "projects": {
