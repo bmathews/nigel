@@ -1,11 +1,18 @@
-    {
-    "tasks": {
+{
+    "plugins": {
+        "confluence": {
+            "plugin": "confluence",
+            "config": {
+                "url": "https://confluence.atsid.com/",
+                "auth": "auth.json"
+            }
+        }
     },
     "projects": {
         "bti": {
-            "name": "BTI Events",
+            "displayName": "BTI Events",
             "description": "cool app",
-            "tasks": {
+            "plugins": {
                 "build": {
                     "plugin": "jenkins",
                     "config": {
