@@ -1,11 +1,5 @@
     {
     "tasks": {
-        "directory": {
-            "plugin": "confluence-directory",
-            "config": {
-                "url": "http://confluence.atsid.com/herpderp"
-            }
-        }
     },
     "projects": {
         "bti": {
