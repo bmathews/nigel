@@ -30,6 +30,10 @@
             "config": {
                 "url": "feed://feeds.feedburner.com/brainyquote/QUOTEFU"
             }
+        },
+        "jira": {
+            "plugin": "jcl",
+            "config": { }
         }
     },
     "projects": {
