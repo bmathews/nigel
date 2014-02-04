@@ -1,29 +1,25 @@
 {
     "plugins": {
+        "help": {
+            "plugin": "help"
+        },
         "confluence": {
             "plugin": "confluence",
             "config": {
-                "url": "https://confluence.atsid.com/",
-                "auth": "auth.json"
+                "url": "https://confluence.atsid.com/"
             }
         },
         "cloudbees": {
             "plugin": "cloudbees",
             "config": {
-                "url": "https://api.cloudbees.com/api",
-                "auth": "auth.json"
+                "url": "https://api.cloudbees.com/api"
             }
         },
-        "directory": {
-            "plugin": "confluence-directory",
-            "config": {
-                "url": "https://confluence.atsid.com/",
-                "auth": "auth.json"
-            }
+        "echo": {
+            "plugin": "echo"
         },
         "rps": {
-            "plugin": "rps",
-            "config": {}
+            "plugin": "rps"
         },
         "quote": {
             "plugin": "quote",
@@ -31,9 +27,14 @@
                 "url": "feed://feeds.feedburner.com/brainyquote/QUOTEFU"
             }
         },
-        "jira": {
-            "plugin": "jcl",
-            "config": { }
+        "jcl": {
+            "plugin": "jcl"
+        },
+        "contacts": {
+            "plugin": "confluence-csv",
+            "config": {
+                "url": "https://confluence.atsid.com/download/attachments/8290557/ATS%20Contacts%201.18.13.xlsx"
+            }
         }
     },
     "projects": {
@@ -41,27 +42,11 @@
             "displayName": "BTI Events",
             "description": "cool app",
             "plugins": {
-                "build": {
-                    "plugin": "jenkins",
-                    "config": {
-                        "url": "https://atsid.ci.cloudbees.com/",
-                        "project": "bti-web-integ"
-                    }
-                },
                 "doc": {
                     "plugin": "confluence",
                     "config": {
                         "url": "https://confluence.atsid.com/",
                         "spaceKey": "BE"
-                    }
-                },
-                "bugs": {
-                    "plugin": "jira",
-                    "config": {
-                        "project": "be",
-                        "host": "jira.atsid.com",
-                        "port": "443",
-                        "auth": "auth.json"
                     }
                 }
             }

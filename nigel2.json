@@ -1,0 +1,19 @@
+{
+    "plugins": {
+        "echo": {
+            "plugin": "echo"
+        },
+        "help": {
+            "plugin": "help"
+        }
+    },
+    "projects": {
+        "BTI": {
+            "plugins": {
+                "echo": {
+                    "plugin": "echo"
+                }
+            }
+        }
+    }
+}
