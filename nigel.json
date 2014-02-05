@@ -35,6 +35,18 @@
             "config": {
                 "url": "https://confluence.atsid.com/download/attachments/8290557/ATS%20Contacts%201.18.13.xlsx"
             }
+        },
+        "lunch": {
+            "plugin": "lunch",
+            "config": {
+                "lunches": [
+                    "Subway",
+                    "Chungs",
+                    "Taco Time",
+                    "Taco Bell",
+                    "Arbys"
+                ]
+            }
         }
     },
     "projects": {
