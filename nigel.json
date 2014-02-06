@@ -75,5 +75,7 @@
                 }
             }
         }
-    }
+    },
+    "uniqueKey": "680e8cc76a11e6695b88547bcdf337a8",
+    "baseUrl": "http://localhost:3001"
 }
