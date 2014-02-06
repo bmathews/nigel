@@ -1,43 +1,51 @@
 {
+    "protocols": {
+        "http": {
+            "path": "http"
+        },
+        "stdin": {
+            "path": "stdin"
+        }
+    },
     "plugins": {
         "help": {
-            "plugin": "help"
+            "path": "help"
         },
         "confluence": {
-            "plugin": "confluence",
+            "path": "confluence",
             "config": {
                 "url": "https://confluence.atsid.com/"
             }
         },
         "cloudbees": {
-            "plugin": "cloudbees",
+            "path": "cloudbees",
             "config": {
                 "url": "https://api.cloudbees.com/api"
             }
         },
         "echo": {
-            "plugin": "echo"
+            "path": "echo"
         },
         "rps": {
-            "plugin": "rps"
+            "path": "rps"
         },
         "quote": {
-            "plugin": "quote",
+            "path": "rss",
             "config": {
                 "url": "feed://feeds.feedburner.com/brainyquote/QUOTEFU"
             }
         },
         "jcl": {
-            "plugin": "jcl"
+            "path": "jcl"
         },
         "contacts": {
-            "plugin": "confluence-csv",
+            "path": "confluence-csv",
             "config": {
                 "url": "https://confluence.atsid.com/download/attachments/8290557/ATS%20Contacts%201.18.13.xlsx"
             }
         },
         "lunch": {
-            "plugin": "lunch",
+            "path": "lunch",
             "config": {
                 "lunches": [
                     "Subway",
@@ -55,7 +63,7 @@
             "description": "cool app",
             "plugins": {
                 "doc": {
-                    "plugin": "confluence",
+                    "path": "confluence",
                     "config": {
                         "url": "https://confluence.atsid.com/",
                         "spaceKey": "BE"
