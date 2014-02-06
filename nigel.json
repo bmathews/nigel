@@ -15,13 +15,15 @@
             "path": "confluence",
             "config": {
                 "url": "https://confluence.atsid.com/"
-            }
+            },
+            "auth": { "type": "userPass" }
         },
         "cloudbees": {
             "path": "cloudbees",
             "config": {
                 "url": "https://api.cloudbees.com/api"
-            }
+            },
+            "auth": { "type": "cloudbees" }
         },
         "echo": {
             "path": "echo"
@@ -42,7 +44,8 @@
             "path": "confluence-csv",
             "config": {
                 "url": "https://confluence.atsid.com/download/attachments/8290557/ATS%20Contacts%201.18.13.xlsx"
-            }
+            },
+            "auth": { "type": "userPass" }
         },
         "lunch": {
             "path": "lunch",
@@ -67,7 +70,8 @@
                     "config": {
                         "url": "https://confluence.atsid.com/",
                         "spaceKey": "BE"
-                    }
+                    },
+                    "auth": { "type": "userPass" }
                 }
             }
         }
